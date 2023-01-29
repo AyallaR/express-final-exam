@@ -39,5 +39,10 @@ export interface BmiOutput {
  */
 export default function bmi(input: BmiInput): BmiOutput {
     // TODO: implement me
+    const weight= BmiInput.weight
+    let height = BmiInput.height
+    bmiC = weigh / (height * height)
+    status = weightUnit/ (heightUnit*heightUnit)
+    
     return {status: 0, bmi: 0};
 }
